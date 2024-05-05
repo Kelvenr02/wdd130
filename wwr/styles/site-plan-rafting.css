@@ -16,10 +16,10 @@ body {
     --headind-font: 'Roboto', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
 
-    --nav-background-color: #XXXXXX;
-    --nav-link-color: #XXXXXX;
-    --nav-hover-link-color: #XXXXXX;
-    --nav-hover-background-color: #XXXXXX;
+    --nav-background-color: #011324;
+    --nav-link-color: #0560c5;
+    --nav-hover-link-color: #03affc;
+    --nav-hover-background-color: #fbfefe;
 }
 
 h1, h2, h3, h4, h5, h6 {
