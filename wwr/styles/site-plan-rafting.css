@@ -2,15 +2,16 @@
 
 body {
     font-family: var(--paragraph-font);
+    color: var(--secondary-color);
     max-width: 960px;
     padding: 20px;
 }
 
 :root {
-    --primary-color: #XXXXXX;
-    --secondary-color: #XXXXXX;
-    --accent1-color: #XXXXXX;
-    --accent2-color: #XXXXXX;
+    --primary-color: #0560c5;
+    --secondary-color: #03affc;
+    --accent1-color: #011324;
+    --accent2-color: #fbfefe;
 
     --headind-font: 'Roboto', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
