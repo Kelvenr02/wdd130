@@ -5,10 +5,8 @@
     --secondary-color: #03affc;
     --accent1-color: #011324;
     --accent2-color: #fbfefe;
-
     --headind-font: 'Roboto', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
-
     --nav-background-color: #011324;
     --nav-link-color: #0560c5;
     --nav-hover-link-color: #03affc;
@@ -35,10 +33,6 @@ header {
 
 p {
     padding: 25px;
-}
-
-body {
-    background-color: var(--accent2-color);
 }
 
 nav {
