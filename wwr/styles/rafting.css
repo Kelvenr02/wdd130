@@ -49,27 +49,29 @@ header nav a:hover {
 
 .hero {
     position: relative;
+    right: 1%;
 }
 
-.hero img {
+.hero .first-img {
     display: block;
     width: 100%;
     height: auto;
-}
-
-.hero {
-    position: relative;
 }
 
 .hero h1 {
     position: absolute;
+    background: rgba(1, 19, 36, 0.5);
     top: 10%;
     left: 40%;
-    background: rgba(0, 0, 0, 0.5);
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+.on {
+    position: absolute;
+    background: rgba(1, 19, 36, 0.5);
+    top: 50%;
+    left: 5%;
+}
+
+.on img {
+    float: right;
 }
