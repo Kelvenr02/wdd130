@@ -57,6 +57,19 @@ header nav a:hover {
     height: auto;
 }
 
+.hero {
+    position: relative;
+}
+
 .hero h1 {
-    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
