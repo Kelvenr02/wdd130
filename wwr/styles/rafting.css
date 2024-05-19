@@ -12,8 +12,8 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-    margin: 0 auto;
-    padding: 0 20px;
+    margin: auto;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,17 +25,33 @@ p {
     color: var(--secondary-color); /* Make sure it's readable */
 }
 
-header nav {
+.grid {
     background-color: var(--nav-background-color);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px 20px;
+}   
+
+header nav {
     font-size: 1.2rem;
     display: flex;
 }
 
-header nav a {
+.flex ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.flex ul li a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
+    font-weight: bold;
 }
 
 header nav a:link, nav a:visited {
@@ -49,13 +65,13 @@ header nav a:hover {
 
 .hero {
     position: relative;
-    right: 1%;
 }
 
 .hero .first-img {
     display: block;
     width: 100%;
     height: auto;
+
 }
 
 .hero h1 {
