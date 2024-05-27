@@ -49,18 +49,18 @@ p {
 
 .flex ul li a {
     display: block;
-    color: var(--nav-link-color);
+    color: var(--nav-hover-link-color);
     text-decoration: none;
     padding: 1rem;
     font-weight: bold;
 }
 
 header nav a:link, nav a:visited {
-    color: var(--nav-link-color)
+    color: var(--nav-hover-link-color);
 }
 
 header nav a:hover {
-    color: var(--nav-hover-link-color);
+    color: var(--nav-link-color);
     background-color: var(--nav-hover-background-color);
 }
 
