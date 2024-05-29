@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary-color: #0560c5;
+    --secondary-color: #03affc;
+    --background-color: #fbfefe;
+    --nav-background-color: #011324;
+    --nav-link-color: #0560c5;
+    --nav-hover-link-color: #03affc;
+    --nav-hover-background-color: #fbfefe;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+    color: var(--secondary-color); /* Make sure it's readable */
+}
+
+.grid {
+    background-color: var(--nav-background-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 10px 20px;
+}   
+
+.flex {
+    font-size: 1.2rem;
+    display: flex;
+    grid-column: 2 / 4;
+}
+
+.flex ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.flex ul li a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+header nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+}
+
+header nav a:hover {
+    color: var(--nav-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.grid-4 {
+    background-color: var(--nav-background-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 10px 20px; 
+}
+
+.sociallinks {
+    grid-column: 3 / 4;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.call-to-action {
+    text-align: center;
+}
+
+.call-to-action a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.flex-2 {
+    display: flex;
+    flex-direction: column;;
+}
+
+.flex-2 img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.upcoming-trips {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+}
+
+th {
+    color: var(--primary-color);
+}
+
+td {
+    color: var(--secondary-color);
+}
