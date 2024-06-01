@@ -210,8 +210,6 @@ button:hover {
     font-weight: bold;
 }
 
-
-
 .grid-3 {
     background-color: var(--nav-background-color);
     display: grid;
