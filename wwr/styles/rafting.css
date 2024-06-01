@@ -1,3 +1,5 @@
+/* rafting.css */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
@@ -21,14 +23,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    padding: 25px;
+    padding: 1.5rem;
     color: var(--secondary-color);
 }
 
 .on p {
-    padding: 25px;
+    padding: 1.5rem;
     color: var(--background-color);
-    text-shadow: 1px 1px 2px var(--primary-color)
+    text-shadow: 1px 1px 2px var(--primary-color);
 }
 
 .grid {
@@ -37,7 +39,7 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     padding: 10px 20px;
-}   
+}
 
 .flex {
     font-size: 1.2rem;
@@ -70,14 +72,18 @@ header nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-.hero {
-    position: relative;
+.hero,
+.grid-3 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.hero {
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     overflow: hidden;
 }
 
@@ -141,14 +147,11 @@ header nav a:hover {
 }
 
 .grid-3 {
-    display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .grid-3 p {
-    align-self: center;
-    justify-self: center;
     text-align: center;
 }
 
